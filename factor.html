@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>한국인을 위한 R</title>
+  <meta name="description" content="R for Every Korean using R bookdown 패키지">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="한국인을 위한 R" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="R for Every Korean using R bookdown 패키지" />
+  <meta name="github-repo" content="rstudio/r4ek" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="한국인을 위한 R" />
+  
+  <meta name="twitter:description" content="R for Every Korean using R bookdown 패키지" />
+  
+
+<meta name="author" content="장운호">
+
+
+<meta name="date" content="2018-05-29">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="list.html">
+<link rel="next" href="dttm.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>들어가며</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> R 및 R Studio 설치</a></li>
+<li class="chapter" data-level="2" data-path="concepts.html"><a href="concepts.html"><i class="fa fa-check"></i><b>2</b> R의 기본 개념 소개</a></li>
+<li class="chapter" data-level="3" data-path="vectors.html"><a href="vectors.html"><i class="fa fa-check"></i><b>3</b> 벡터</a></li>
+<li class="chapter" data-level="4" data-path="flow.html"><a href="flow.html"><i class="fa fa-check"></i><b>4</b> 흐름제어</a></li>
+<li class="chapter" data-level="5" data-path="matrix-array.html"><a href="matrix-array.html"><i class="fa fa-check"></i><b>5</b> 행렬과 어레이</a></li>
+<li class="chapter" data-level="6" data-path="list.html"><a href="list.html"><i class="fa fa-check"></i><b>6</b> 리스트와 데이터프레임</a></li>
+<li class="chapter" data-level="7" data-path="factor.html"><a href="factor.html"><i class="fa fa-check"></i><b>7</b> 요인</a></li>
+<li class="chapter" data-level="8" data-path="dttm.html"><a href="dttm.html"><i class="fa fa-check"></i><b>8</b> 날짜형 데이터 처리</a></li>
+<li class="chapter" data-level="9" data-path="leftjoin.html"><a href="leftjoin.html"><i class="fa fa-check"></i><b>9</b> 조인</a></li>
+<li class="chapter" data-level="10" data-path="basketdata.html"><a href="basketdata.html"><i class="fa fa-check"></i><b>10</b> 장바구니 데이터 활용</a></li>
+<li class="chapter" data-level="11" data-path="Visualization.html"><a href="Visualization.html"><i class="fa fa-check"></i><b>11</b> 데이터 시각화</a></li>
+<li class="chapter" data-level="12" data-path="geo.html"><a href="geo.html"><i class="fa fa-check"></i><b>12</b> 지도데이터</a></li>
+<li class="chapter" data-level="13" data-path="ending.html"><a href="ending.html"><i class="fa fa-check"></i><b>13</b> 요약 및 결론</a></li>
+<li class="chapter" data-level="" data-path="ecb0b8eab3a0ec9e90eba38c.html"><a href="ecb0b8eab3a0ec9e90eba38c.html"><i class="fa fa-check"></i>참고자료</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">한국인을 위한 R</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="factor" class="section level1">
+<h1><span class="header-section-number">Chapter 7</span> 요인</h1>
+<ol style="list-style-type: decimal">
+<li>요인 : 물리적인 필요이유와 논리적인 필요이유를 비교하여 설명</li>
+</ol>
+<ul>
+<li>범주형 데이터의 중요성을 설명할 비유와 유추 사례 개발 필요</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>요인 활용 사례 실습</li>
+</ol>
+<ul>
+<li>그래프와의 관계를 집중적으로 설명할 필요가 있음.</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>데이터 구조(Data Sructure) 최종 리뷰</li>
+</ol>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="list.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="dttm.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/07-factor_apply.Rmd",
+"text": "Edit"
+},
+"download": ["R4EK.pdf", "R4EK.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>한국인을 위한 R</title>
+  <meta name="description" content="R for Every Korean using R bookdown 패키지">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="한국인을 위한 R" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="R for Every Korean using R bookdown 패키지" />
+  <meta name="github-repo" content="rstudio/r4ek" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="한국인을 위한 R" />
+  
+  <meta name="twitter:description" content="R for Every Korean using R bookdown 패키지" />
+  
+
+<meta name="author" content="장운호">
+
+
+<meta name="date" content="2018-05-29">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+
+<link rel="next" href="intro.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>들어가며</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> R 및 R Studio 설치</a></li>
+<li class="chapter" data-level="2" data-path="concepts.html"><a href="concepts.html"><i class="fa fa-check"></i><b>2</b> R의 기본 개념 소개</a></li>
+<li class="chapter" data-level="3" data-path="vectors.html"><a href="vectors.html"><i class="fa fa-check"></i><b>3</b> 벡터</a></li>
+<li class="chapter" data-level="4" data-path="flow.html"><a href="flow.html"><i class="fa fa-check"></i><b>4</b> 흐름제어</a></li>
+<li class="chapter" data-level="5" data-path="matrix-array.html"><a href="matrix-array.html"><i class="fa fa-check"></i><b>5</b> 행렬과 어레이</a></li>
+<li class="chapter" data-level="6" data-path="list.html"><a href="list.html"><i class="fa fa-check"></i><b>6</b> 리스트와 데이터프레임</a></li>
+<li class="chapter" data-level="7" data-path="factor.html"><a href="factor.html"><i class="fa fa-check"></i><b>7</b> 요인</a></li>
+<li class="chapter" data-level="8" data-path="dttm.html"><a href="dttm.html"><i class="fa fa-check"></i><b>8</b> 날짜형 데이터 처리</a></li>
+<li class="chapter" data-level="9" data-path="leftjoin.html"><a href="leftjoin.html"><i class="fa fa-check"></i><b>9</b> 조인</a></li>
+<li class="chapter" data-level="10" data-path="basketdata.html"><a href="basketdata.html"><i class="fa fa-check"></i><b>10</b> 장바구니 데이터 활용</a></li>
+<li class="chapter" data-level="11" data-path="Visualization.html"><a href="Visualization.html"><i class="fa fa-check"></i><b>11</b> 데이터 시각화</a></li>
+<li class="chapter" data-level="12" data-path="geo.html"><a href="geo.html"><i class="fa fa-check"></i><b>12</b> 지도데이터</a></li>
+<li class="chapter" data-level="13" data-path="ending.html"><a href="ending.html"><i class="fa fa-check"></i><b>13</b> 요약 및 결론</a></li>
+<li class="chapter" data-level="" data-path="ecb0b8eab3a0ec9e90eba38c.html"><a href="ecb0b8eab3a0ec9e90eba38c.html"><i class="fa fa-check"></i>참고자료</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">한국인을 위한 R</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">한국인을 위한 R</h1>
+<h4 class="author"><em>장운호</em></h4>
+<h4 class="date"><em>2018-05-29</em></h4>
+</div>
+<div id="eb93a4ec96b4eab080eba9b0" class="section level1 unnumbered">
+<h1>들어가며</h1>
+<p>제가 처음 책을 써야겠다고 마음먹은 것은 약 1년전부터입니다. 지난 4년여동안 국민대학교 <strong>빅데이터경영MBA</strong> 과정에서 <strong>R 프로그래밍</strong>과목을 직장 업무와 함께 데이터분석 공부를 하면서 석사학위까지 취득하고자 하는 학생들을 가르치면서, 이 분들에게 적절한 수준의 R 학습서가 없다는 생각이 들면서 부터였던 것으로 기업합니다.</p>
+<p>보통 R은 이공계 전공자나 엔지니어링 관련 공부를 한 사람 사람들이나 학생들이 많이쓰고, 이러한 공부 경험을 가진 사람을 대상으로한 책은 많이 있지만, 실제로 인문계 출신의 회사원들이 보고 따라할 만한 책은 찾기 어려웠습니다.</p>
+<p>저의 생각으로는 이공계 전공자나 엔지니어링 전공자를 위한 책은 달라야 한다고 생각합니다. 이공계열이나 엔지니어링 전공자들이 아닌 일반인들의 관점에서 가장 이해하기 어려운 부분들은 어려운 알고리즘이라 기 보다는, 기초가 되는 개념들이었습니다. 즉 변수나 함수와 같은 개념들과 클래스(class), 객체지향(object-oriented) 등의 개념을 익히기는 쉽지 않습니다만, R을 제대로 사용하기 위해서는 희미라게라도 이러한 개념들을 이해하고 있어야, 구글(google) 등을 통한 개별학습시에 이해도를 높여, R을 좀 더 편안하게 사용되는데 도움이 되었던 기억이 납니다.</p>
+<p>두번째로 일반인 혹은 직장인들이 어려워하는 부분은 윈도우즈(Windows)의 사용에 익숙해 지고, 고도로 자동화된 엑셀(Excel), 파워포인트, 워드 등에 너무 익숙해져서, R과 같이 GUI(Graphic User Interface)가 아닌 명령어를 한 자 한 자 일일이 입력하는 CLI(Command Line Interface)에 익숙해 지는 것입니다. 다만, 이 훈련을 위해 스파르타 식으로 강하게 Push하는 형태로 수업을 진행해 보았습니다만, 결과는 오히려 마이너스 였습니다.</p>
+<p>왜 그랬을까요? 아직 저 처럼 절실히 R이 필요한 분들이 아직은 많지 않기 때문입니다. 저는 남산도서관에서 교재들과 코세라(Coursera)나 edX 등의 MOOC(Massive Open Online Course) 강의를 들으며 R을 공부하였습니다. R Cookbook 등의 책을 구해 코드를 일일이 따라치면서 공부도 하고 했습니다만, R이 가진 아주 신비한 특성, 한달정도 지나면 까맣게 잊혀지는 것에 고생도 많이 했습니다. 결국 코세라와 edX 강의들을 통해서 부족한 강의 수강과 함께, 코세라나 edX의 강좌 게시판을 통해서 교류가 가능했던, 전세계의 막강한 동급생 네트워크를 통해서 부족한 부분을 메울 수가 있었습니다.</p>
+<p>제가 한 것이 독학인 것이 맞지만, 지금 생각해 보면 세계에서 가장 잘 가르치는 선생님들로 부터 사사를 받았다는 생각이 들고, 제 생각이 맞으리라 지금은 확신합니다.</p>
+<p>다만, 이러한 학습은 영어를 기반으로 해서 영어에 은근히 저항감이 있는 일반인들의 접근이 쉽지않고, 또한 학생 스스로 강좌 게시판을 활용하여 영어로 질문을 하고, 수시로 올라오는 영어로 된 답변을 보면서 스스로 깨쳐나가야 하기 때문에, 손일 덜가면서 쉽고 결과가 확실한 방법을 선호하는 일반인 혹은 직장인들의 관점에서 보면, 조금 우선순위에서 밀리는 선택지라고 생각됩니다.</p>
+<p>제 생각에 R은 쉽습니다. 다만 패키지(Package) 사용법을 배우는 것이 어렵습니다. 패키지가 무엇인지는 추후에 상세히 설명드리겠습니다만, R이 자랑하는 다양한 데이터 분석 알고리즘을 R 사용자들이 수시로 이용할 수 있도록 만들어 놓은 설치 프로그램(installer) 이라고 일단 이해하시면 될 것 같습니다.</p>
+<p>즉 R의 패키지들에는 다양한 이론이나, 사용시의 주의사항들이 녹여져 있어, 그러한 공부가 미리 되어 있지 않은 사람들에게는 뭐가 돌아가기는 하는데, 나오는 결과가 무슨 의미인지, 심지어는 제대로 결과가 나왔는지를 알려면, 패키지 구성에 들어간 이론이나 배경지식들을 미리 학습해 두는 방법외에는 없기 때문입니다.</p>
+<p>하지만 R 그자체는, 나중에 보시겠지만, 그 생김새 부터가 멋없고, 요즘 세상에 쓰는 프로그램답지 않게 메뉴 아이콘 같은 것도 없는, 어찌보면 단순(Simple)한 모습입니다만, 그 안에는 아주 간결한 로직으로 다양한 R 패키지들을 수용하고 있습니다.</p>
+<p>아니 R이 간결하다고요? 하시는 분들도 계시겠지만, R의 확장성 때문에 붙여져 있는 다양한 부착물들을 벗겨내고 보면, R은 벡터와 이 벡터를 중심으로 생성된 5가지 데이터 구조(Data Structure)로 이루어진 간단한 프로그램입니다. 여기서 데이터 구조(Data Structure)란 구체적인 정보나 내용에 상관없이 데이터를 정리하는 방식을 의미하는 것입니다. 데이터 구조는 건물 설계도의 평면도 정도라고 이해<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>하시면 되는데, R에는 벡터(Vector)를 기초로, 매트릭스(Matrix), 어레이(Array), 리스트(List), 데이터프레임(Dataframe), 그리고 마지막으로 요인(Factor) 등 6가지의 데이터 구조를 가지고 있는데, 다양한 데이터를 저장하는 기본 틀임에도 불구하고, 외국에서 만들어져 이름이 한글이 아닌 것이 아쉽기는 하지만, 이름 보다는 그것의 내부 설계만 이해하면 되기 때문에, 너무 걱정하실 필요는 없다는 것이 제 주장의 요체이다. 바로 이들이 전체 1만여개에 육박하는 R의 다양한 패키지를 품을 수 있는 아주 기초적인 구성품들로 골격이 이루어져 있고, 곁가지들이 아닌 이 골격에 집중하시고, 이를 이해하시면 매우 수월하게 R을 이해하고, 궁극의 목적인 응용 수준까지도 도달하는 것이 가능하다고 저는 생각합니다.</p>
+<p>저는 R 코딩의 숙련도를 높이고, 암기가 아닌 학생들의 이해를 유도함으로써 R을 업무에 활용이 가능하도록 하 기 위해서는 이론에 대한 직접적인 설명보다는 이론이 적용되는 사례를 골라, 비유와 유추를 통해 누구라도 쉽게 그 개념과 친숙할 수 있도록 하는 방법이 필요하다는 점을 절감하였습니다. 비유 사용을 통해 새로운 개념을 기존에 알고 있던 지식과 연계하여, 친근하게 학습할 수 있으며, 경험에 비추어 이해하게 함으로써 보다 효과적으로 기억하게해준다<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>고 알고 있습니다.</p>
+<p>저는 지난 2015년부터 지금까지의 이런 수업경험을 통해, 올해부터는 수업 중에 코드를 미리 배포하고 진행하는 실습이 아니라 직접 제가 입력하는 코드를 따라 입력하는 방식으로 바꾸어서, 보다 직접적으로 학생들의 코딩 경험을 유도하고 있습니다. 또한 학생들도 이러한 방식이 업무를 병행해야 하는 입장에서 코딩을 실습을 하는 좋은 기회라고 판단하여, 계속 이런 방식으로 해달라는 요구를 하는 것을 보면서 제 생각이 맞았다는 확신이 들기도 합니다.</p>
+<p>이번 책에서는 이러한 경험에 바탕하여 가장 기본이 되는 R의 데이터 구조에 대한 이해와 이에 기반한 사례기반의 다양한 실습이 가능하도록 구성할 계획입니다.</p>
+
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>블록체인 무엇인가? 이북, 55p <span class="citation">(Drescher <a href="#ref-drescher2017">2017</a>)</span><a href="index.html#fnref1">↩</a></p></li>
+<li id="fn2"><p>블록체인 무엇인가? 이북, 55p <span class="citation">(Drescher <a href="#ref-drescher2017">2017</a>)</span><a href="index.html#fnref2">↩</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="intro.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/index.Rmd",
+"text": "Edit"
+},
+"download": ["R4EK.pdf", "R4EK.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
